@@ -9,30 +9,3 @@ matplotlib==3.8.0
 seaborn==0.12.3
 ```
 
-README.md
-```
-# Customer Churn Prediction App
-
-This is a professional Streamlit app that predicts customer churn for businesses.
-It can handle large datasets (30,000+ rows) and automatically clean data, handle missing values,
-and provide individual predictions, summary statistics, and actionable recommendations
-to retain high-risk customers.
-
-## Features
-- Upload any CSV dataset (Churn column optional)
-- Predict individual customer churn probability
-- Summary of total predicted churn / stay
-- High-risk customer analysis with suggested actions
-- Handles missing and irregular data automatically
-
-## Tools & Technologies
-- Python 3
-- Streamlit
-- Pandas, Numpy
-- Scikit-learn (Logistic Regression)
-- Joblib (model saving/loading)
-
-## How to Use
-1. Upload your CSV dataset
-2. Click on "Predict Churn"
-3. View individual predictions, summary statistics, and suggested actions
